@@ -12,6 +12,13 @@ As a brief description, as described in the blog we extract data hosted in an AW
 
 ### Replicating our Work
 
+1) The first step in replicating our work can be found in the textract_response_gen.ipynb file. All CSAFE handwriting samples have been uploaded to our S3 bucket and in that notebook you will query Textract with files from that bucket in order to generate a list of Textract responses for each file. We recommend only querying a few files to test it because sending all 3754 files takes hours. Once this step is complete, you will have the response JSON objects in your directory for cleaning
+
+2) Next, we must clean the data in our data_cleaning.ipynb notebook. Again, we recommend just using the response1.json and response2.json files found in the repo for simplicity's sake. This notebook will walk you through our steps to clean the file and get it ready for analysis. After running this notebook, you will have generated a file called 'textract_dataframe.csv' which is good to go for analysis.
+
+3) Finally, we must perform our analysis. This can be done by running the cells in our data analysis notebook.
+
+
 The first step in replicating our work is to get data. Originally from the CSAFE Handwriting Database, usable data can be seen in --- hosted in this repo. ------- 
 
 ### Further Experimentation
