@@ -1,6 +1,6 @@
 # Evaluating AWS Textract
 By: Hannah Marcus, Anjanay Nangia, Andrew Taber, Landon Warner, and Ben Zhao
-### Link to Blog with Full Description:
+### Link to Blog with Full Description: [LINK](https://qtm-350-final-project-blog.s3.amazonaws.com/data_analysis_blog_vF.html)
 
 Hi, welcome to our walkthrough on testing the accuracy of AWS Textract based on various factors.
 
